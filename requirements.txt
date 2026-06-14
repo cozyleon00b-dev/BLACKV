@@ -1,3 +1,5 @@
 requests
-threading
-socket
+aiohttp
+dnspython
+beautifulsoup4
+colorama
