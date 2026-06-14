@@ -13,14 +13,38 @@
 6. XML - Website modifier
 7. Credit & Info
 
+## Acces Pin
+Buyer: 281235
+
 ## Installation
+
+### Windows
+
+```
+git clone https://github.com/cozyleon00b-dev/BLACKV.git
+cd BLACKV
+pip install requests
+python blackv.py
+
+### Arch Linux / BlackArch
+
+sudo pacman -Syu --noconfirm && sudo pacman -S git python python-pip --noconfirm
+git clone https://github.com/cozyleon00b-dev/BLACKV.git
+cd BLACKV
+pip install requests
+python blackv.py
+
 
 ### Kali Linux / Ubuntu
 
-
+sudo apt update && sudo apt install git python3 python3-pip -y
+git clone https://github.com/cozyleon00b-dev/BLACKV.git
+cd BLACKV
+pip3 install requests
+python3 blackv.py
 
 ### Termux
-```bash
+bash
 pkg update && pkg install git python -y
 git clone https://github.com/cozyleon00b-dev/BLACKV.git
 cd BLACKV
